@@ -23,3 +23,19 @@ function subtract() {
 
   document.getElementById("result").innerHTML = result;
 }
+
+function multiply() {
+  var a = document.getElementById("num1").value;
+  var b = document.getElementById("num2").value;
+  var result = parseInt(a) * parseInt(b);
+
+  document.getElementById("result").innerHTML = result;
+}
+
+function divide() {
+  var a = document.getElementById("num1").value;
+  var b = document.getElementById("num2").value;
+  var result = parseInt(a) / parseInt(b);
+
+  document.getElementById("result").innerHTML = result;
+}
