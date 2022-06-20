@@ -8,17 +8,13 @@ h1 {
 table {
   width: 100%;
 }
-#emp-details {
-  width: 50%;
-}
 
 table,
 th,
 td {
   /* border width      border-style      boredr-color */
   border: 3px solid black;
-  border-collapse: collapse;
-  text-align: center;
+  /* border-collapse: collapse; */
   background-color: bisque;
   border-radius: 5px;
 }
@@ -42,4 +38,45 @@ td:hover {
 td:last-child,
 th:nth-child(3) {
   background-color: aqua;
+}
+
+#emp-details {
+  width: 100%;
+  height: 300px;
+  border: 3px solid black;
+  border-collapse: collapse;
+  font-size: 30px;
+}
+#emp-details td {
+  text-align: left;
+  padding-left: 30px;
+  vertical-align: middle;
+}
+
+#emp-details td:hover {
+  background-color: aquamarine;
+}
+
+tr:nth-child(even) {
+  background-color: blueviolet;
+}
+
+.css-demo {
+  color: brown;
+  background-color: beige;
+  border: 2px solid brown;
+  /* top right bottom left */
+  margin: 50px 20px 10px 25px;
+  padding: 20px;
+  /* top right bottom left */
+  padding: 100px 20px 80px 50px;
+  width: 500px;
+  height: 200px;
+  /* visible(default) , hidden(truncate/trim/cut  the data), scroll(adds a scrollbar irrespective of scroll required, auto(adds scroll only if required)) */
+  overflow: auto;
+  font-size: 30px;
+  /* bold,bolder,lighter */
+  font-weight: 800;
+  /* uppercase,lowercase and capitalize */
+  text-transform: capitalize;
 }
