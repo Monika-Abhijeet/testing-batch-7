@@ -1,0 +1,22 @@
+h1 {
+  color: red;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  /* border width      border-style      boredr-color */
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.emp-title {
+  text-align: right;
+}
