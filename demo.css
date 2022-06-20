@@ -2,8 +2,14 @@ h1 {
   color: red;
 }
 
+#table-heading {
+  color: blueviolet;
+}
 table {
   width: 100%;
+}
+#emp-details {
+  width: 50%;
 }
 
 table,
@@ -19,4 +25,8 @@ td {
 
 .emp-title {
   text-align: right;
+}
+
+.details {
+  color: pink;
 }
