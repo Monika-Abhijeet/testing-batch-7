@@ -30,3 +30,16 @@ td {
 .details {
   color: pink;
 }
+
+* {
+  color: brown;
+}
+
+td:hover {
+  background-color: red;
+  color: white;
+}
+td:last-child,
+th:nth-child(3) {
+  background-color: aqua;
+}
